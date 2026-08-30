@@ -12,8 +12,8 @@
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "start": "electron .",
-    "build": "electron-builder",
+    "start": "node init && electron .",
+    "build": "node init && electron-builder",
     "test": "node --test test-security.mjs test-window-recovery.mjs"
   },
   "dependencies": {},
